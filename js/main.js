@@ -150,18 +150,29 @@ document.addEventListener('DOMContentLoaded', function () {
 	
 	/* 7. END Map */
 	function initMap() {
-		var map = new google.maps.Map(document.getElementById('map'), {
-			center: { lat: 40.7143528, lng: -74.0059731 },
-			scrollwheel: false,
-			zoom: 11,
-			controls: []
-		});
+		// var map = new google.maps.Map(document.getElementById('map'), {
+		// 	center: { lat: 40.7143528, lng: -74.0059731 },
+		// 	scrollwheel: false,
+		// 	zoom: 11,
+		// 	controls: []
+		// });
 		// var icon = 'img/marker.png';
 		// var marker = new google.maps.Marker({
 		// 	position: { lat: 40.7143528, lng: -74.0059731 },
 		// 	icon: icon,
 		// 	map: map
-		// });
+        // });
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15,
+            center: { lat: 21.0167904, lng: 105.7819856 },
+            streetViewControl: false,
+            mapTypeControl: false
+          });
+          
+        //   placeMarker({ lat: 21.0167904, lng: 105.7819856 });
+        //   geocodeAddress(marker.position);
+        //   map.panTo(marker.position);
+        //   markers.push(marker);
 	}
 	google.maps.event.addDomListener(window, "load", initMap);
 	/* 7. END Map */
