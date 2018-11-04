@@ -156,12 +156,12 @@ document.addEventListener('DOMContentLoaded', function () {
 			zoom: 11,
 			controls: []
 		});
-		var icon = 'img/marker.png';
-		var marker = new google.maps.Marker({
-			position: { lat: 40.7143528, lng: -74.0059731 },
-			icon: icon,
-			map: map
-		});
+		// var icon = 'img/marker.png';
+		// var marker = new google.maps.Marker({
+		// 	position: { lat: 40.7143528, lng: -74.0059731 },
+		// 	icon: icon,
+		// 	map: map
+		// });
 	}
 	google.maps.event.addDomListener(window, "load", initMap);
 	/* 7. END Map */
