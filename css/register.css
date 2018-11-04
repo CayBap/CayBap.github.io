@@ -1,0 +1,21 @@
+.hv {
+    color: black;
+    background-color: white!important;
+    border: solid 2px #393e52;
+}
+
+.hv:hover {
+    color: white;
+    background-color: #393e52!important;
+    border: solid 2px #393e52;
+}
+
+.style1 {
+    padding: 0;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2;
+}

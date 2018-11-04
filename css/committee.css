@@ -1,0 +1,58 @@
+*
+{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.main
+{
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+}
+.text
+{
+    margin: 5% auto;
+    text-align: center;
+}
+.main1
+{
+    height: auto;
+}
+.infor
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+.img
+{
+    float:left;
+    width: 25%;
+    height: 350px;
+}
+.img img
+{
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.namejob
+{
+    margin: 5% 4%;
+}
+.namejob p
+{
+    text-align: center;
+}
+.in4
+{
+    width: 70%;
+    height: 350px;
+    float:right;
+}
+.in4 p
+{
+    font-size: 16px;
+    padding-top: 3%;
+    color: rgb(75, 74, 74);
+    line-height: 1.5;
+}
