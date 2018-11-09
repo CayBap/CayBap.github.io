@@ -38,11 +38,14 @@ document.addEventListener('DOMContentLoaded', function () {
 				diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)),
 				diffHours = (Math.ceil(timeDiff / (1000 * 3600)) % 12),
 				diffMinutes = (Math.ceil(timeDiff / (1000 * 60)) % 60),
-				diffSeconds = (Math.ceil(timeDiff / (1000)) % 60);
-			document.getElementById('counter__time-days').innerHTML = diffDays;
-			document.getElementById('counter__time-hours').innerHTML = diffHours;
-			document.getElementById('counter__time-minutes').innerHTML = diffMinutes;
-			document.getElementById('counter__time-seconds').innerHTML = diffSeconds;
+                diffSeconds = (Math.ceil(timeDiff / (1000)) % 60);
+                if(document.getElementById('counter__time-days')){
+                    document.getElementById('counter__time-days').innerHTML = diffDays;
+                    document.getElementById('counter__time-hours').innerHTML = diffHours;
+                    document.getElementById('counter__time-minutes').innerHTML = diffMinutes;
+                    document.getElementById('counter__time-seconds').innerHTML = diffSeconds;
+                }
+		
 		}
 		countDown();
 		setInterval(function () {
@@ -204,12 +207,13 @@ document.addEventListener('DOMContentLoaded', function () {
     /* 8. END To Top Button */
     
     /* 9. Header fixed */
-	// var navbar = $(".menu-fix"),
-	// 	body = $("html,body");
-	// function track (e) {
-	// 	navbar.toggleClass("fix", $(window).scrollTop() > 0);
-	// }
-	// $(window).on("scroll", track);
+	var navbar = $(".menu-fix"),
+		body = $("html,body");
+	function track (e) {
+        console.log(e)
+		navbar.toggleClass("fix", $(window).scrollTop() > 0);
+	}
+	$(window).on("scroll", track);
     /* 9. END Header fixed */
     
     /* 10. BTN Klick */

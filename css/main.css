@@ -462,7 +462,7 @@ input[type="submit"]:focus, input[type="button"]:focus{
     border-color: #393e52; 
 }
 .header__list li a.current{
-    border-color: white; 
+    border-color: #393e52; 
 }
 
 .fix .header__list li a:focus {
@@ -2143,4 +2143,13 @@ tr td
 #htx-fo{
     font-size: 20px;
     font-weight: bold;
+}
+.header__list a{
+    color: #0b1030;
+}
+.js-menu >span{
+    background: #0b1030;
+}
+.active a{
+    color: white !important;
 }

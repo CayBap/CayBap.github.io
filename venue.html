@@ -9,7 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
     <!-- BEGIN Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900%7CRoboto:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900%7CRoboto:300,400,500,700"
+        rel="stylesheet">
     <!-- END Google Fonts -->
     <!-- BEGIN Stylesheets -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -38,7 +39,7 @@
     </div>
     <!-- END Preloader -->
     <!-- BEGIN Header -->
-    <div class="menu-fix fix">
+    <!-- <div class="menu-fix">
         <div class="container">
             <div class="header__top">
                 <a href="#" class="logo"></a>
@@ -62,13 +63,36 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> -->
+    <div class="menu-fix">
+		<div class="container">
+			<div class="header__top">
+				<a href="#" class="logo"></a>
+				<div class="js-menu hidden-lg hidden-md">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+                <ul class="header__list">
+                    <li><a   href="./index.html">Home</a></li>
+                    <li><a href="./committee.html">Committee</a></li>
+                    <li><a href="./speakers.html">Speakers</a></li>
+                    <li><a href="./program.html">Program</a></li>
+                    <li><a href="./abstract.html">Abstracts</a></li>
+                    <li><a href="./register.html">Registration</a></li>
+                    <li><a class="current" href="./venue.html">Venue</a></li>
+                    <li><a href="./sponsors.html">Sponsors</a></li>
+                    <li><a href="./travel.html">Travel</a></li>
+                    <li><a href="./schedule.html">Schedule</a></li>
+                </ul>
+			</div>
+		</div>
+	</div>
     <header class="header" style="background-image: url(img/header__bg.jpg)" id="home">
         <div class="header__container container">
             <h1 class="style"> International Conference on Advanced Nanomaterials for Green Growth </h1>
-            <div class="header__center">
-              
-            </div>
+        </div>
     </header>
     <!-- END Header -->
 
@@ -162,8 +186,8 @@
     <!-- END Custom JavaScript -->
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
-        (function(d, w, c) {
-            (w[c] = w[c] || []).push(function() {
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function () {
                 try {
                     w.yaCounter44566295 = new Ya.Metrika({
                         id: 44566295,
@@ -177,7 +201,7 @@
             });
             var n = d.getElementsByTagName("script")[0],
                 s = d.createElement("script"),
-                f = function() {
+                f = function () {
                     n.parentNode.insertBefore(s, n);
                 };
             s.type = "text/javascript";
@@ -189,7 +213,9 @@
                 f();
             }
         })(document, window, "yandex_metrika_callbacks");
-    </script> <noscript><div><img src="https://mc.yandex.ru/watch/44566295" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    </script> <noscript>
+        <div><img src="https://mc.yandex.ru/watch/44566295" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
     <!-- /Yandex.Metrika counter -->
 </body>
 
