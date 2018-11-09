@@ -34,7 +34,8 @@
 	</div>
 	<!-- END Preloader -->
 	<!-- BEGIN Header -->
-	<div class="menu-fix">
+	<!-- <div class="menu-fix"> -->
+	<div class="menu-fix fix">
 		<div class="container">
 			<div class="header__top">
 				<a href="#" class="logo"></a>
@@ -62,9 +63,9 @@
 	<header class="header" style="background-image: url(img/header__bg.jpg)" id="home">
 		<div class="header__container container">
 			<div class="header__center">
-				<h1>International Conference on Advanced Nanomaterials for Green Growth</h1>
+				<h1 id="htx-fo">International Conference on Advanced Nanomaterials for Green Growth</h1>
 				<p>Time Remaining</p>
-				<div class="header__counter counter">
+				<div class="header__counter counter" style="color:white">
 					<div class="counter__item counter__days">
 						<div class="counter__time" id="counter__time-days"></div>
 						<span>Days</span>
@@ -82,14 +83,20 @@
 						<span>Seconds</span>
 					</div>
 				</div>
-				<div class="header__text">Green and sustainable development is widely recognized as a concept of the modern society.
+				<!-- <div class="header__text">Green and sustainable development is widely recognized as a concept of the modern society.
                     This concept has appeared as a state of society where living conditions and resource-use continue
                     to meet human needs without undermining the integrity and stability of the natural system.
                     Studies on new and advanced nanomaterials, applied to environmental remediation, energy
                     conversion, energy storage, smart agriculture, etc., are beneficial for green and sustainable
-                    development.</div>
-				<div class="header__buttons">
-					<a href="#register" class="btn btn__accent intro__btn">Register Now</a>
+                    development.</div> -->
+				<div class="header__buttons" style="padding:0">
+                    <a href="#register" class="btn btn__accent intro__btn" style="margin:0" id="register">Register Now</a>
+                    <style>
+                    #register:hover{
+                        background-color: #393b43;
+                        color: white;
+                    }
+                    </style>
 					<!-- <a href="#gallery" class="btn btn__pure intro__btn">Watch Video</a> -->
 				</div>
 			</div>

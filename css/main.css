@@ -505,7 +505,7 @@ input[type="submit"]:focus, input[type="button"]:focus{
 }
 
 .btn {
-  	border: 2px solid #393e52;
+  	border: 2px solid #0b1030;
   	font-family: "Montserrat", sans-serif;
   	font-weight: 400;
   	font-size: 14px;
@@ -658,7 +658,8 @@ input[type="submit"]:focus, input[type="button"]:focus{
   	background-size: cover;
   	background-repeat: no-repeat;
   	background-position: center top;
-  	color: #fff;
+      /* color: #fff; */
+      color: #1E253E;
   	font-family: "Montserrat", sans-serif;
   	font-weight: 400; 
 }
@@ -670,13 +671,13 @@ input[type="submit"]:focus, input[type="button"]:focus{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); 
+    /* background-color: rgba(0, 0, 0, 0.8);  */
 }
 
 .header__container {
     position: relative;
     z-index: 1; 
-    padding-top: 150px;
+    padding-top: 80px;
 }
 
 .header__top {
@@ -826,7 +827,7 @@ input[type="submit"]:focus, input[type="button"]:focus{
     width: calc(100% - 10px);
     height: -webkit-calc(100% - 10px);
     height: calc(100% - 10px);
-    background-color: rgba(30, 37, 62, 0.7); 
+    background-color: #0b1030; 
 }
 
 .counter__item div, .counter__item span {
@@ -2138,3 +2139,8 @@ tr td
 /***********************************
 		/* 4. END RESPINSIVE */
 /***********************************/
+
+#htx-fo{
+    font-size: 20px;
+    font-weight: bold;
+}

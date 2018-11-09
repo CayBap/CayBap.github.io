@@ -204,12 +204,12 @@ document.addEventListener('DOMContentLoaded', function () {
     /* 8. END To Top Button */
     
     /* 9. Header fixed */
-	var navbar = $(".menu-fix"),
-		body = $("html,body");
-	function track (e) {
-		navbar.toggleClass("fix", $(window).scrollTop() > 0);
-	}
-	$(window).on("scroll", track);
+	// var navbar = $(".menu-fix"),
+	// 	body = $("html,body");
+	// function track (e) {
+	// 	navbar.toggleClass("fix", $(window).scrollTop() > 0);
+	// }
+	// $(window).on("scroll", track);
     /* 9. END Header fixed */
     
     /* 10. BTN Klick */
