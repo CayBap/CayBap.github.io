@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // });
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 15,
-            center: { lat: 21.0167904, lng: 105.7819856 },
+            center: { lat: 20.996235, lng: 105.807973 },
             streetViewControl: false,
             mapTypeControl: false
           });
